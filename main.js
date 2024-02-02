@@ -24,7 +24,7 @@ function displayWeather(data) {
 		document.querySelector(".city").innerHTML = data.name;
 		document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
 		document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
-		document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
+		document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
 		//image update 
 		if (data.weather[0].main == "Clouds") {
