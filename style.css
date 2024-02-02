@@ -109,6 +109,11 @@ h2 {
 }
 
 .wind-text {
-	font-size: 12px;
+	text-wrap: nowrap;
+	color: #fff;
+	font-size: 15px;
 }
 
+.col2{
+		display: flex;
+}
