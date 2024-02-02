@@ -16,30 +16,30 @@ async function checkWeather(city) {
 checkWeather();
 
 function displayWeather(data) {
-//	if (response.status == 404) {
+	//	if (response.status == 404) {
 	//	document.querySelector('.error').style.display = "block";
-//	} else {
+	//	} else {
 
-		//data update
-		document.querySelector(".city").innerHTML = data.name;
-		document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
-		document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
-		document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
+	//data update
+	document.querySelector(".city").innerHTML = data.name;
+	document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
+	document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
+	document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
-		//image update 
-		if (data.weather[0].main == "Clouds") {
-			weatherIcon.src = "./imgs/clouds.png";
-		} else if (data.weather[0].main == "Clear") {
-			weatherIcon.src = "./imgs/clouds.png";
-		} else if (data.weather[0].main == "Rain") {
-			weatherIcon.src = "./imgs/rain.png";
-		} else if (data.weather[0].main == "Drizzle") {
-			weatherIcon.src = "./imgs/drizzle.png";
-		} else if (data.weather[0].main == "Mist") {
-			weatherIcon.src = "./imgs/mist.png";
-		}
-		document.querySelector('.weather').style.display = "block";
-//	}
+	//image update 
+	if (data.weather[0].main == "Clouds") {
+		weatherIcon.src = "./imgs/clouds.png";
+	} else if (data.weather[0].main == "Clear") {
+		weatherIcon.src = "./imgs/clouds.png";
+	} else if (data.weather[0].main == "Rain") {
+		weatherIcon.src = "./imgs/rain.png";
+	} else if (data.weather[0].main == "Drizzle") {
+		weatherIcon.src = "./imgs/drizzle.png";
+	} else if (data.weather[0].main == "Mist") {
+		weatherIcon.src = "./imgs/mist.png";
+	}
+	document.querySelector('.weather').style.display = "block";
+	//	}
 
 }
 
