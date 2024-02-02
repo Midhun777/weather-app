@@ -18,8 +18,7 @@ body {
 	width: 85%;
 	padding: 40px 35px;
 	text-align: center;
-	background-image: linear-gradient(to bottom right, #005aa7, #fffde4);
-
+	background-image: linear-gradient(135deg, #00feba, #5b548a);
 }
 
 .search {
@@ -39,7 +38,7 @@ body {
 	border-radius: 30px;
 	flex: 1;
 	margin-right: 16px;
-	width : 210px;
+	width: 210px;
 }
 
 .search button {
@@ -116,3 +115,14 @@ h2 {
 	font-size: 15px;
 }
 
+.error {
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 14px;
+	display: none;
+}
+
+.weather {
+	display: none;
+}
