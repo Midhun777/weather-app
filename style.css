@@ -34,7 +34,6 @@
 
 .search button {
 	width: 60px;
-	height 60px;
 }
 
 .search-button {
@@ -114,6 +113,6 @@ h2 {
 	font-size: 15px;
 }
 
-.col2{
-		display: flex;
+.col2 {
+	display: flex;
 }
