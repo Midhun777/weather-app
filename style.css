@@ -5,6 +5,7 @@
 	font-family: roboto;
 }
 
+
 body {
 	height: 100vh;
 	background-color: #212121;
@@ -126,4 +127,17 @@ h2 {
 
 .weather {
 	display: none;
+}
+
+.mid {
+	position : absolute;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 8px;
+	bottom: 10px;
+	opacity: 0.4;
+}
+
+a {
+	text-decoration: none;
+		color: #E0E0E0;
 }
