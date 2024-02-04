@@ -18,6 +18,8 @@ async function checkWeather(city) {
 function displayWeather(data) {
 	if (new String(data.cod).startsWith("4")) {
 		document.querySelector('.error').style.display = "block";
+		document.querySelector('.weather').style.display = "none";
+
 	} else {
 		//data update
 		document.querySelector(".city").innerHTML = data.name;
