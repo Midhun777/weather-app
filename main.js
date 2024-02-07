@@ -49,4 +49,5 @@ function displayWeather(data) {
 //onclick
 searchButton.addEventListener("click", () => {
 	checkWeather(searchBox.value);
+	searchBox.value = "";
 })
