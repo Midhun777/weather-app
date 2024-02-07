@@ -17,6 +17,7 @@ body {
 }
 
 .card {
+	font-family: roboto;
 	border-radius: 12px;
 	width: 85%;
 	padding: 10px;
@@ -46,6 +47,8 @@ body {
 	flex: 1;
 	margin-right: 16px;
 	width: 210px;
+	font-family: roboto;
+
 }
 
 .search button {
@@ -66,7 +69,9 @@ body {
 	border-radius: 50%;
 }
 
-p, h1, h2 {
+p,
+h1,
+h2 {
 	color: white;
 }
 
