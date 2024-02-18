@@ -10,10 +10,10 @@ body {
 	margin: 0px;
 	padding: 0px;
 	height: 100vh;
-	background-color: #212121;
+	background-color: #00695C;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center
 }
 
 .card {
